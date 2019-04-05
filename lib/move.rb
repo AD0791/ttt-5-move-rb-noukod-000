@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index tato
-  puts "#{tato}".to_i - 1
+  puts tato.to_i - 1
 end
 
 def move(board,input_to_index,posdepart="X")
