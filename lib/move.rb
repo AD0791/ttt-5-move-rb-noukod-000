@@ -10,8 +10,8 @@ def input_to_index tato
   puts "#{tato}".to_i - 1
 end
 
-def move(board,input_to_index,posdepart="X")
-  board[input_to_index] = posdepart
+def move(board,index,posdepart="X")
+  board[index] = posdepart
 end
 
 
