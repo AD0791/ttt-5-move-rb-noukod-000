@@ -14,4 +14,4 @@ index = input_to_index(input)
 
 move(board,index,posdepart)
 
-display_bord(
+display_board(board)
